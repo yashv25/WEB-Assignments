@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head_container{
+            background-color: rgba(59, 71, 146, 0.842);
+            height: 10vh;
+            color: white;
+        }
+        .head_content{
+            padding-right: 155px;   
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 10px;
+            padding-top: 10px;
+         }
+         .Email_box{
+            padding-bottom: 20px;
+            padding-top: 1.5px;
+         }
+         .login_button{
+            background-color: rgb(2, 5, 153);
+            color: rgba(255, 255, 255, 0.877);
+            padding: 3px;
+            border: 1px solid transparent;
+         }
+         .main_container{
+            display: flex;
+            justify-content: end;
+            background-color: whitesmoke;
+            height: 70vh;
+              
+         }
+         .main_content{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding-right: 150px;   
+         }
+         .fname{
+            height: 25px; 
+            padding-left: 5px; 
+            width: 12.5vw;
+         }
+        .lname{
+            width: 25.8vw; 
+            height: 25px; 
+            padding-left: 5px;
+            margin-top: 10px;
+        }
+        .B_box{
+            display: flex; 
+            margin-top: 10px;  
+            gap: 10px
+        }
+        .b_desp{
+            font-size: 14px;
+            color: blue;
+        }
+        .radio{
+            font-size: 20px;
+        }
+        .cr_acc{
+            margin-top: 10px;
+            height: 50px;
+            width: 200px;
+            background-color: green;
+            color: whitesmoke;
+            border: 1px solid transparent;
+            border-radius: 5px;    
+        }
+        .foot{
+            padding-left: 350px;
+        }
+        .foot1{
+            display: flex;
+            margin-top: 10px;
+            gap: 30px;
+            color: blue;
+        }
+        .foot2{
+            display: flex;
+            margin-top: 10px;
+            gap: 25px;
+            color: blue;
+        }
+        .foot3{
+            display: flex;
+            margin-top: 10px;
+            gap: 70px;
+            color: blue;
+        }
+     </style>
+</head>
+
+<body>
+       <header>
+        <div class="head_container">
+           <div class="head_content">
+            <div class="Email_box">
+                <p>Email or Phone</p>
+                <input type="text">
+            </div>
+            <div class="password_box">
+                <p>Password</p>
+                <input type="password">
+                <p style="color: rgba(255, 255, 255, 0.514);">Forgotten acount?</p>
+            </div>
+                <button class="login_button">Log In</button>
+           </div>
+        </div>
+       </header>
+       <main>
+        <div class="main_container">
+            <div class="main_content">
+                <div>
+                    <h1 style="font-size: 45px;padding-top: 15px;padding-bottom:15px
+                    ">Create an account</h1>
+                    <p>It's free and always will be.</p>
+                   </div>
+                        <div class="input_n">
+                            <input type="text" placeholder="First Name" class="fname">  
+                            <input type="text" placeholder="Surname" class="fname"><br>
+                           <input  type="text" placeholder="Mobile number or email" class="lname"><br>
+                          <input type="password" placeholder="New password" class="lname">     
+                       </div>
+            
+                       <p>Birthday</p>
+                    <div class="B_box">        
+                        <input type="date">
+                        <p class="b_desp"> Why do I need to provide my <br> date of birth?</p>
+                    </div>
+                    <div class="radio">
+                      <input type="radio" id="radio1">
+                      <label for="radio1">Female</label>
+                      <input type="radio" id="radio2"> 
+                      <label for="radio2">Male</label>
+                    </div>
+                    <p style="font-size: 14px;">By clicking Create an account, you agree to our <a style="color: blue;">Terms</a> and that<br>you have read our <a style="color: blue;">Data Policy,</a> including our <a style="color: blue;">Cookie Use.</a></p>
+
+                    <button class="cr_acc"><h2>Create an account</h2></button>
+
+                    <p style="margin-top: 10px;"><a style="color: blue;">Create a Page</a> for a celebrity, band or business.</p>
+                </div>
+            </div>
+
+        </div>
+       </main>
+       <footer>
+        <div class="foot">
+            <div class="foot1">
+                <p>Sign Up</p>
+                <p>Log In</p>
+                <p>Messenger</p>
+                <p>DotNetTec</p> 
+                <p>Mobile</p> 
+                <p>Find Friends</p>
+                <p>Badges</p>
+                <p>People</p>
+                <p>Pages</p>
+                <p>Places</p>
+                <p>Games</p> 
+            </div>
+            <div class="foot2">
+                <p>Locations</p>
+                <p>Celebrities</p>
+                <p>Groups</p>
+                <p>Moments</p> 
+                <p>About</p> 
+                <p>Create Advert</p>
+                <p>Create Page</p>
+                <p>Developers</p>
+                <p>Careers</p>
+                <p>Privacy</p>
+                <p>Cookies</p> 
+            </div>
+            <div class="foot3">
+                <p>Ads</p>
+                <p>Terms</p>
+                <p>Help</p>
+            </div>
+        </div>
+       </footer>
+</body>
+</html>
