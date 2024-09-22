@@ -5,11 +5,11 @@ function sayHello() {
   sayHello();
   
 //      QUESTION-2
-  // function doubleNumber(num){
-  //         return num*2
-  // }
-  // let result=doubleNumber(10)
-  // console.log(result)
+  function doubleNumber(num){
+          return num*2
+  }
+  let result=doubleNumber(10)
+  console.log(result)
   
 //      QUESTION-3
   function addTwoNumbers(n1, n2) {
@@ -70,13 +70,13 @@ function sayHello() {
       case 5:
         return "Weekday";
       default:
-        return "Invalid day"; // Handling any number that isn't between 1 and 7
+        return "Invalid day";
     }
   }
   
   // Example usage:
-  const day = 6; // You can change this to test different values
+  const day = 6; 
   const dayType = getDayType(day);
   console.log(`Day ${day} is a ${dayType}.`);
   
-  // getDayType(prompt("Enter day between 1-7 :"))
+  getDayType(prompt("Enter day between 1-7 :"))
