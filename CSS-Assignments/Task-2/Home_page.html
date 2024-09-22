@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header_container{
+            width: 100vw;
+            height: 12vh;
+        
+        }
+        .header_content{
+            display: flex;
+            padding: 2vh 5vw;
+        }
+        .logo{
+            height: 8vh;
+        }
+        .logo_container{
+          display: flex;
+
+        }
+        .tabs{
+            width: 60vw;
+            display: flex;
+            font-weight: bold;
+            padding-top: 20px;
+            justify-content: space-evenly;
+        }
+        .donate_button{
+            width: 200px;
+            height: 50px;
+            background-color: rgba(255, 0, 0, 0.778);
+            color: white;
+            font-weight: bold;
+            margin-top: 5px;
+            border: 1px solid transparent;
+        }
+        .tab_container{
+            text-decoration: none;
+        }
+        .main_container{
+            background-image: url("img1.jpg") ;
+            height: 78vh;
+            background-size: 100% 120%;
+            
+        } 
+        .main_content{
+            color: white;
+            padding-top: 200px;
+            padding-left: 950px;
+            font-size: 30px;
+        }
+        .button_todo{
+            margin-top: 20px;
+            background-color: transparent;
+            color: white;
+            border: 3px solid white;
+            height: 40px;
+            width: 150px;
+            font-weight: bold;
+        }
+        .foot_content{
+            display: flex;
+            height: 10vh;
+            padding-top: 30px;
+            padding-left: 50px;
+        }
+        .input_container{
+            margin-left: 620px;
+            width: 200px;
+            height: 30px;
+            padding-left: 10px;
+            font-weight: bold;
+            background-color:  white;
+            border:  1px solid black;
+        }
+        .button_sub{
+            margin-left: 10px;
+            width: 150px;
+            height: 30px;
+            background-color: rgb(75, 141, 152);
+            border: 1px solid transparent;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_content">
+                <div class="logo_container">
+                    <img class="logo" src="./main_logo.jpg" >
+                    <div class="logo_des">
+                        <h1>dream center</h1>
+                        <p>CARE SUPPORT</p>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <P style="color: red;">HOME</P>
+                    <p>
+                        <label for="wedo">WHAT WE DO</label>
+                        <select style="border: 1px solid transparent;" id="wedo"></select>
+                    </p>
+                    <p>ABOUT US</p>
+                    <p>
+                        <label for="contact">CONTACTS</label>
+                            <select style="border: 1px solid transparent;" id="contact"></select>
+                    </p>
+                </div>
+                    <button class="donate_button">DONATE NOW</button>
+                
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class="main_content">
+                <h1>Making More </h1>
+                <h1>of Every Gift</h1>
+                <h3>No child should be forgotten</h3>
+                <button class="button_todo">WHAT WE DO</button>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot_container">
+            <div class="foot_content">
+                <h2>Sign Up & Stay Connected</h2>
+                <input  class="input_container" type="email" placeholder="Enter your email">
+                <button class="button_sub">SUBSCRIBE</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
